@@ -1,7 +1,8 @@
 .Calculator {
-	font-family: "Roboto" , sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
+	border-collapse: collapse;
 }
 
 td {
@@ -9,43 +10,47 @@ td {
 	padding: 26px 0;
 	text-align: center;
 }
-.Calculator_output{
+
+.Calculator__output {
 	background-color: black;
 	color: white;
 	border-radius: 12px 12px 0 0;
 	text-align: right;
 	padding-right: 32px;
-	cursor: default; 
-}
-.Calculator_output: hover{
-	opacity: .75;
+	cursor: default;
 }
 
-.Calculator_fun{
+.Calculator__fun {
 	background-color: #ff9900;
 	color: black;
 	cursor: pointer;
-	transition: opacity ease .25s
+	transition: opacity ease .25s;
 }
-.Calculator_fun: hover{
+
+.Calculator__fun:hover {
 	opacity: .75;
 }
 
-.Calculator_numb{
+.Calculator__numb {
 	background-color: #bbbbbb;
 	color: black;
 	cursor: pointer;
+	transition: opacity ease .25s;
 }
-.Calculator_numb: hover{
+
+.Calculator__numb:hover {
 	opacity: .75;
 }
 
-.Calculator_enter{
+.Calculator__enter {
 	background-color: #f1f1f1;
 	color: black;
 	border-radius: 0 0 12px 12px;
 	cursor: pointer;
+	transition: opacity ease .25s;
 }
-.Calculator_enter: hover{
+
+.Calculator__enter:hover {
 	opacity: .75;
 }
+
